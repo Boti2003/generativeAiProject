@@ -1,0 +1,31 @@
+{
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"dev": "vite",
+		"build": "vite build",
+		"preview": "vite preview"
+	},
+	"dependencies": {
+		"@azure/identity": "^4.9.1",
+		"dotenv": "^16.5.0",
+		"openai": "^4.96.0",
+		"preact": "^10.26.7",
+		"react-chat-elements": "^12.0.18",
+		"react-quill": "^2.0.0",
+		"react-quilljs": "^2.0.5"
+	},
+	"devDependencies": {
+		"@preact/preset-vite": "^2.9.0",
+		"less": "^4.3.0",
+		"typescript": "^5.8.3",
+		"vite": "^5.3.3"
+	},
+	"name": "richtextwithaisupport",
+	"version": "1.0.0",
+	"description": "<h2 align=\"center\">   <img height=\"256\" width=\"256\" src=\"./src/assets/preact.svg\"> </h2>",
+	"main": "index.js",
+	"keywords": [],
+	"author": "",
+	"license": "ISC"
+}
